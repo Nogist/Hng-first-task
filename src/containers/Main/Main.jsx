@@ -1,5 +1,6 @@
 import React from 'react';
 import './main.css';
+import mes from '../../assets/mes.png'
 import share from '../../assets/share.png';
 import shares from '../../assets/shares.png';
 import hover from '../../assets/hover.png';
@@ -18,7 +19,8 @@ const Main = () => {
       <div className='main-content'>
         <div className='main-profile'>
           <div className='images'>
-            <img id='image' src={hover} alt='hover' />
+            <img id='profile__image' src={mes} alt='profile' />
+            {/* <img id='image' className='cams' src={hover} alt='hover' /> */}
           </div>
           <p id='twitter' >LawrenceBill3</p>
           {/* <p id='slack'>Harny</p> */}
