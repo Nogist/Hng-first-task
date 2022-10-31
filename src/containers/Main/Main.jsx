@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import './main.css';
 import mes from '../../assets/mes.png'
 import share from '../../assets/share.png';
@@ -8,6 +9,10 @@ import tool from '../../assets/Tooltip.png';
 import cursor from '../../assets/Cursor.png';
 
 const Main = () => {
+  
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const toggle = () => setToggleMenu(!toggleMenu)
+
   const Team = 'https://training.zuri.team';
   const Books = 'https://books.zuri.team';
   const Python = 'https://books.zuri.team/python-for-beginners?ref_id=Harny';
@@ -18,9 +23,8 @@ const Main = () => {
     <div className='main'>
       <div className='main-content'>
         <div className='main-profile'>
-          <div className='images'>
-            <img id='profile__image' src={mes} alt='profile' />
-            {/* <img id='image' className='cams' src={hover} alt='hover' /> */}
+          <div className='images' onMouseEnter={toggle} onMouseLeave={toggle} >
+         {!toggleMenu ? (<img id='profile__img' src={mes} alt='profile' />) : (<img  src={hover} alt='profile' />)}
           </div>
           <p id='twitter' >LawrenceBill3</p>
           {/* <p id='slack'>Harny</p> */}

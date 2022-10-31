@@ -102,39 +102,25 @@ a:hover {
   display: none;
 }
 
-/* .images {
+.images {
   width: 88px;
   height: 88px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   align-items: flex-end;
-
-  padding-bottom: 11px;
-}
-.images #image {
-  position: relative;
-  top: 50px;
-  right: 30px;
-  display: none;
-  
-}
-.images {
-  background: url(../../assets/mes.png);
-}
-.images:hover {
   background: linear-gradient(0deg, rgba(52, 64, 84, 0.75), rgba(52, 64, 84, 0.75)), url(../../assets/mes.png);
   border-radius: 275px;
+  padding-bottom: 11px;
 }
-.images:hover #image {
-  display: inline;
+
+img#profile__img{
+  position: relative;
+  top: 10.7px;
+  right: 0px;
 }
-img#profile__image:hover  {
-  display: none;
-}
-/* img#profile__img:hover {
-  
-} */ 
+
 
 
 /* Smaller devices (portrait and landscape) ----------- */
