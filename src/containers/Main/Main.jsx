@@ -31,11 +31,11 @@ const Main = () => {
         </div>
         <div className='main-link'>
           <a href='.'>Twitter Links</a>
-          <a href={Team}>Zuri Team</a>
-          <a href={Books} title='This is where you find books about design and coding' >Zuri Books</a>
-          <a href={Python} title='Best place to fetch resources to jumpstart tech careers' >Python Books</a>
-          <a href={Pitch} title='validate your all codes at cheapest rates'>Background Check for Coders</a>
-          <a href={Design} title='Best place to get amazingly free designs' >Design Books</a>
+          <a id='btn__zuri' href={Team}>Zuri Teams</a>
+          <a id='books' href={Books} title='This is where you find books about design and coding' >Zuri Books</a>
+          <a id='book__python' href={Python} title='Best place to fetch resources to jumpstart tech careers' >Python Books</a>
+          <a id='pitch' href={Pitch} title='validate your all codes at cheapest rates'>Background Check for Coders</a>
+          <a id='book__design' href={Design} title='Best place to get amazingly free designs' >Design Books</a>
         </div>
       </div>
     </div>
