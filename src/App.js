@@ -7,8 +7,8 @@ import './App.css';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/Hng-first-task-linktree" element={<Home />} />
+      <Route path="/Hng-first-task-linktree/contact" element={<Contact />} />
     </Routes>
   );
 }

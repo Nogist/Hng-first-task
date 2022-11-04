@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 import './main.css';
 import mes from '../../assets/mes.png'
 import share from '../../assets/share.png';
@@ -42,6 +43,7 @@ const Main = () => {
           <a id='book__python' href={Python} title='Best place to fetch resources to jumpstart tech careers' >Python Books</a>
           <a id='pitch' href={Pitch} title='validate your all codes at cheapest rates'>Background Check for Coders</a>
           <a id='book__design' href={Design} title='Best place to get amazingly free designs' >Design Books</a>
+          <a href='#'><Link to={"/Hng-first-task-linktree/contact"} >Contact </Link></a>
         </div>
       </div>
     </div>

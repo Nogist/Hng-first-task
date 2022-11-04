@@ -1,7 +1,7 @@
 .main {
   width: 100%;
-  height: 774px;
-  gap: 32px;
+  height: 874px;
+  gap: 24px;
   display: flex;
   align-items: center;
   padding: 0 32px;
@@ -128,12 +128,12 @@ img#profile__img{
 @media only screen and (max-device-width : 859px) {
  .main {
     width: 100%;
-    height: 700px;
+    height: 848px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px 16px;
-    gap: 32px;
+    gap: 24px;
  }
  .main-content {
     width: 100%;
