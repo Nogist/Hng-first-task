@@ -43,7 +43,7 @@ const Main = () => {
           <a id='book__python' href={Python} title='Best place to fetch resources to jumpstart tech careers' >Python Books</a>
           <a id='pitch' href={Pitch} title='validate your all codes at cheapest rates'>Background Check for Coders</a>
           <a id='book__design' href={Design} title='Best place to get amazingly free designs' >Design Books</a>
-          <a href='#'><Link to={"/Hng-first-task-linktree/contact"} >Contact </Link></a>
+          <a id='contact' href='#'><Link to={"/Hng-first-task-linktree/contact"} id='contact'>Contact Me</Link></a>
         </div>
       </div>
     </div>
